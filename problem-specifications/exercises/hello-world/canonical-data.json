@@ -1,0 +1,12 @@
+{
+  "exercise": "hello-world",
+  "cases": [
+    {
+      "uuid": "ea77f8c4-2f69-11eb-adc1-0242ac120002",
+      "description": "Say Hello World!",
+      "property": "hello",
+      "input": {},
+      "expected": "Hello, World!"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello World in Solidity using truffle",
+  "main": "index.js",
+  "repository": "https://github.com/exercism/solidity",
+  "author": "Ali Azam",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "truffle": "^5.1.54"
+  },
+  "scripts": {
+    "test": "truffle test"
+  }
+}
