@@ -13,5 +13,12 @@
     "unlocked_by": null,
     "difficulty":1,
     "topics": ["equality"]
+  },{
+    "uuid":"6b789dc6-303b-11eb-adc1-0242ac120002",
+    "slug":"resistor-color-duo",
+    "core":true,
+    "unlocked_by": null,
+    "difficulty":2,
+    "topics": ["equality"]
   }]
 }
