@@ -1,0 +1,21 @@
+{
+  "name": "resister-color-duo",
+  "version": "1.0.0",
+  "description": "Hello World in Solidity using truffle",
+  "main": "index.js",
+  "repository": "https://github.com/exercism/solidity",
+  "author": "Ali Azam",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.1",
+    "truffle": "^5.1.55"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "devDependencies": {
+    "ethereumjs-tx": "^2.1.2"
+  }
+}

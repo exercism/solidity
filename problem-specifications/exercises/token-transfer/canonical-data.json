@@ -1,0 +1,77 @@
+{
+  "exercise": "token-transfer",
+  "cases": [
+    {
+      "uuid": "a5072906-0c04-4981-b9c7-eaa246edd1ff",
+      "description": "should be able to mint 100 tokens",
+      "property": "mint",
+      "input": {
+        "tokens": 100
+      },
+      "expected": 100
+    },
+    {
+      "uuid": "ec1ccad5-8c8c-451a-b75b-990594cdac50",
+      "description": "should not be able to mint 0 tokens",
+      "property": "mint",
+      "input": {
+        "tokens": 0
+      },
+      "expected": 0
+    },
+    {
+      "uuid": "bc763325-42bb-489d-b352-4ac3875a2e1e",
+      "description": "should be able to mint 1000 tokens to accounts[1]",
+      "property": "mint",
+      "input": {
+        "tokens": 1000
+      },
+      "expected": 1000
+    },
+    {
+      "uuid": "d6b1501a-8432-46dd-bf2a-bbf7fe4e10e6",
+      "description": "should be able to transfer 0 tokens",
+      "property": "transfer",
+      "input": {
+        "tokens": 0
+      },
+      "expected": 0
+    },
+    {
+      "uuid": "3446e74d-08f8-4a69-937f-66e1b5a4a328",
+      "description": "should not be able to transfer tokens you dont have!",
+      "property": "transfer",
+      "input": {
+        "tokens": 10
+      },
+      "expected": 0
+    },
+    {
+      "uuid": "672fece0-b5db-425a-842c-8682bcc7e45f",
+      "description": "should not be able to transfer to address 0",
+      "property": "transfer",
+      "input": {
+        "tokens": 10
+      },
+      "expected": 0
+    },
+    {
+      "uuid": "b35f4ef8-24db-4862-8cb4-92e9994e7977",
+      "description": "should be able to mint and transfer 100 tokens",
+      "property": "transfer",
+      "input": {
+        "tokens": 100
+      },
+      "expected": 100
+    },
+    {
+      "uuid": "e986370c-fed4-4c20-ac8e-d6b8a665ad13",
+      "description": "balanceOf an arbitrary account should be 0",
+      "property": "balanceOf",
+      "input": {
+        "tokens": 0
+      },
+      "expected": 0
+    }
+  ]
+}
