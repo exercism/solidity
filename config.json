@@ -3,6 +3,7 @@
   "language": "Solidity",
   "active": false,
   "blurb": "",
+  "version": 3,
   "ignore_pattern": "[Ee]xample",
   "solution_pattern": "[Ee]xample",
   "test_pattern": "[Tt]est",
@@ -13,7 +14,9 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": ["equality"]
+      "topics": [
+        "equality"
+      ]
     },
     {
       "uuid": "6b789dc6-303b-11eb-adc1-0242ac120002",
@@ -21,7 +24,9 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 2,
-      "topics": ["equality"]
+      "topics": [
+        "equality"
+      ]
     },
     {
       "uuid": "0564c65e-8e4a-42a1-85ad-b9e246ca7ac8",
@@ -29,7 +34,12 @@
       "core": true,
       "unlocked_by": null,
       "difficulty": 3,
-      "topics": ["maps", "math", "conditionals", "exception_handing"]
+      "topics": [
+        "maps",
+        "math",
+        "conditionals",
+        "exception_handing"
+      ]
     }
   ]
 }
