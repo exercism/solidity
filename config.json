@@ -1,6 +1,7 @@
 {
   "track_id": "solidity",
   "language": "Solidity",
+  "slug": "solidity",
   "active": false,
   "status": {
     "concept_exercises": false,
