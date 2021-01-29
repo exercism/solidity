@@ -22,6 +22,7 @@
     {
       "uuid": "ea77f8c4-2f69-11eb-adc1-0242ac120002",
       "slug": "hello-world",
+      "name": "Hello World",
       "difficulty": 1,
       "topics": [
         "equality"
@@ -30,6 +31,7 @@
     {
       "uuid": "6b789dc6-303b-11eb-adc1-0242ac120002",
       "slug": "resistor-color-duo",
+      "name": "Resistor Color Duo",
       "difficulty": 2,
       "topics": [
         "equality"
@@ -38,6 +40,7 @@
     {
       "uuid": "0564c65e-8e4a-42a1-85ad-b9e246ca7ac8",
       "slug": "token-transfer",
+      "name": "Token Transfer",
       "difficulty": 3,
       "topics": [
         "maps",
