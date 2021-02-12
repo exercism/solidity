@@ -1,4 +1,4 @@
-# Resistor Color Duo
+# Instructions
 
 If you want to build something using a Raspberry Pi, you'll probably use _resistors_.
 For this exercise, you need to know two things about them:
@@ -32,10 +32,3 @@ From the example above:
 brown-green should return 15
 brown-green-violet should return 15 too, ignoring the third color.
 
-
-## Source
-
-Maud de Vries, Erik Schierboom [https://github.com/exercism/problem-specifications/issues/1464](https://github.com/exercism/problem-specifications/issues/1464)
-
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
