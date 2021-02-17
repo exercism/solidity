@@ -18,6 +18,20 @@
   "ignore_pattern": "[Ee]xample",
   "solution_pattern": "[Ee]xample",
   "test_pattern": "[Tt]est",
+  "files": {
+    "solution": [
+      "contracts/%{kebab_slug}.sol"
+    ],
+    "test": [
+      "test/%{kebab_slug}-test.js"
+    ],
+    "example": [
+      ".meta/reference/example-solution/%{kebab_slug}.sol"
+    ],
+    "exemplar": [
+      ".meta/reference/exemplar-solution/%{kebab_slug}.sol"
+    ]
+  },
   "exercises": {
     "concept": [],
     "practice": [
