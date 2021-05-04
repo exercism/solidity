@@ -2,13 +2,13 @@
   "authors": [],
   "files": {
     "solution": [
-      "contracts/token-transfer.sol"
+      "contracts/token.sol"
     ],
     "test": [
-      "test/token-transfer-test.js"
+      "test/token-test.js"
     ],
     "example": [
-      ".meta/reference/example-solution/token-transfer.sol"
+      ".meta/reference/example-solution/token.sol"
     ]
   }
 }
