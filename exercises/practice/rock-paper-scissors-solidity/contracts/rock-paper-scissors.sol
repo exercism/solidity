@@ -10,7 +10,7 @@ contract RockPaperScissors {
     mapping(address => bytes32) public choices;
 
     function play(bytes32 choice) external {
-        require(choices[msg.sender] == bytes32(0)); // make sure player hasnt played before
+        require(choices[msg.sender] == bytes32(0), "played already"); // make sure player hasnt played before
         choices[msg.sender] = choice;
     }
 
