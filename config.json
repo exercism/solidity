@@ -16,9 +16,6 @@
     "indent_size": 4,
     "highlightjs_language": "solidity"
   },
-  "ignore_pattern": "[Ee]xample",
-  "solution_pattern": "[Ee]xample",
-  "test_pattern": "[Tt]est",
   "files": {
     "solution": [
       "contracts/%{kebab_slug}.sol"
