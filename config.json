@@ -9,7 +9,7 @@
     "representer": false,
     "analyzer": false
   },
-  "blurb": "",
+  "blurb": "At its core, Solidity is a programming language heavily influenced by C++, Python and JavaScript.  It is an object-oriented language using the Ethereum Virtual Machine, also known as *EVM*.  It has ECMAScript like syntax, which makes it appear familiar to some, while it is also statically typed, with variadic return types.",
   "version": 3,
   "online_editor": {
     "indent_style": "space",
