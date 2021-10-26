@@ -74,11 +74,7 @@
   "concepts": [],
   "key_features": [],
   "tags": [
-    "paradigm/contract_oriented",
     "paradigm/object_oriented",
-    "paradigm/transactional",
-    "typing/strong",
-    "runtime/evm",
-    "platform/blockchain"
+    "typing/strong"
   ]
 }
