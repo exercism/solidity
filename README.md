@@ -1,10 +1,8 @@
 # Exercism Solidity Track
 
-![Build Status](https://github.com/exercism/solidity/workflows/solidity%20%2F%20main/badge.svg)
-![configlet](https://github.com/exercism/solidity/workflows/configlet/badge.svg)
+## Status
 
-Exercism exercises in Solidity.
+This exercise has three exercises, including hello-world, as well as one more proposed exercise.
+No work has been done on the track for over a year.
 
-Status:    
--[ ] Hello World    
--[ ] More....    
+If you wish to work on this track, please post in the [Exercism Community Forum](https://forum.exercism.org/c/exercism/building-exercism/125) to discuss it with the team.
