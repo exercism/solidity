@@ -15,5 +15,6 @@
     "example": [
       ".meta/reference/example-solution/token.sol"
     ]
-  }
+  },
+  "blurb": ""
 }
