@@ -27,9 +27,9 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
       - name: Use Node LTS
-        uses: actions/setup-node@v2.4.1
+        uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c
         with:
           # Here, use the LTS/stable version of the track's tooling, e.g.:
           node-version: 12.4
@@ -50,9 +50,9 @@ jobs:
         # Optionally, add more matrix variables, such as os or arch
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
       - name: Use Node ${{ matrix.version }}
-        uses: actions/setup-node@v2.4.1
+        uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c
 
       - name: Install project dependencies
         run: yarn
