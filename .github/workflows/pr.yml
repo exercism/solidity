@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
 
       - name: Use Node.js LTS (12.x)
-        uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b
+        uses: actions/setup-node@0a44ba7841725637a19e28fa30b79a866c81b0a6
         with:
           # Here, use the LTS/stable version of the track's tooling, e.g.:
           # node-version: 12.x
@@ -50,7 +50,7 @@ jobs:
 
     steps:
       - name: Use Node ${{ matrix.version }}
-        uses: actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b
+        uses: actions/setup-node@0a44ba7841725637a19e28fa30b79a866c81b0a6
 
       - name: Install project dependencies
         run: yarn
