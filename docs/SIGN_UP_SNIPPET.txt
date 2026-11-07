@@ -1,0 +1,15 @@
+contract WordCounter {
+    mapping(string => uint256) public counts;
+    string public best;
+
+    function mostCommonWord(string[] calldata words) public returns (string memory, uint256) {
+        for (uint256 i = 0; i < words.length; i++) {
+            string calldata word = words[i];
+            counts[word] += 1;
+            if (counts[word] > counts[best]) {
+                best = word;
+            }
+        }
+        return (best, counts[best]);
+    }
+}
